@@ -3,7 +3,9 @@ ResNet-50-SKFAC Example
 
 ## Description
 
-This is an example of training ResNet-50 V1.5 with ImageNet2012 dataset by second-order optimizer SKFAC. This example is based on modifications to the [THOR optimizer](https://gitee.com/mindspore/mindspore/tree/r1.1/model_zoo/official/cv/resnet_thor) on the [MindSpore framework](https://www.mindspore.cn/en).
+This is a Mindspore implementation of our CVPR-2021 paper [SKFAC: Training Neural Networks With Faster Kronecker-Factored Approximate Curvature](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_SKFAC_Training_Neural_Networks_With_Faster_Kronecker-Factored_Approximate_Curvature_CVPR_2021_paper.html)
+This is an example of training ResNet-50 V1.5 with ImageNet2012 dataset by second-order optimizer [SKFAC](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_SKFAC_Training_Neural_Networks_With_Faster_Kronecker-Factored_Approximate_Curvature_CVPR_2021_paper.html). This example is based on modifications to the [THOR optimizer](https://gitee.com/mindspore/mindspore/tree/r1.1/model_zoo/official/cv/resnet_thor) on the [MindSpore framework](https://www.mindspore.cn/en).
+
 
 <!-- TOC -->
 
@@ -153,6 +155,21 @@ Parameters for both training and inference can be set in config.py.
 | 48 | 0.7585 |
 | 49 | 0.7595 |
 
+
+## Cite
+
+Please cite [our paper](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_SKFAC_Training_Neural_Networks_With_Faster_Kronecker-Factored_Approximate_Curvature_CVPR_2021_paper.html) (and the respective papers of the methods used) if you use this code in your own work:
+
+```
+@InProceedings{Tang_2021_CVPR,
+    author    = {Tang, Zedong and Jiang, Fenlong and Gong, Maoguo and Li, Hao and Wu, Yue and Yu, Fan and Wang, Zidong and Wang, Min},
+    title     = {SKFAC: Training Neural Networks With Faster Kronecker-Factored Approximate Curvature},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {13479-13487}
+}
+```
 
 ## References
 - This example is based on modifications to [THOR optimizer](https://gitee.com/mindspore/mindspore/tree/r1.1/model_zoo/official/cv/resnet_thor).
