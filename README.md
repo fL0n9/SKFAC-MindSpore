@@ -3,7 +3,7 @@ ResNet-50-SKFAC Example
 
 ## Description
 
-This is a Mindspore implementation of our CVPR-2021 paper [SKFAC: Training Neural Networks With Faster Kronecker-Factored Approximate Curvature](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_SKFAC_Training_Neural_Networks_With_Faster_Kronecker-Factored_Approximate_Curvature_CVPR_2021_paper.html)
+This is a Mindspore implementation of our paper [SKFAC: Training Neural Networks With Faster Kronecker-Factored Approximate Curvature](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_SKFAC_Training_Neural_Networks_With_Faster_Kronecker-Factored_Approximate_Curvature_CVPR_2021_paper.html)
 <!-- 
 This is an example of training ResNet-50 V1.5 with ImageNet2012 dataset by second-order optimizer [SKFAC](https://openaccess.thecvf.com/content/CVPR2021/html/Tang_SKFAC_Training_Neural_Networks_With_Faster_Kronecker-Factored_Approximate_Curvature_CVPR_2021_paper.html). This example is based on modifications to the [THOR optimizer](https://gitee.com/mindspore/mindspore/tree/r1.1/model_zoo/official/cv/resnet_thor) on the [MindSpore framework](https://www.mindspore.cn/en). -->
 
